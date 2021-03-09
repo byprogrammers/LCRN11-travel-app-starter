@@ -10,6 +10,11 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:theme="@style/AppTheme">
+      <!-- start add this -->
+      <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyAwhpQG0ik00mDoJc0rY74RFbmZ1DwIHrA"/>
+      <!-- end add this -->
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"
